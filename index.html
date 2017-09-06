@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Mushroom Mania</title>
+    <link rel="stylesheet" type="css/stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <body ng-app="MushroomMania">
+
+        <!-- <div ng-include="'partials/all-mushrooms.html'"></div> -->
+        <div ng-view></div>
+
+        <script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="app/app.js"></script>
+
+
+        <script type="text/javascript" src="app/factories/factory-mushrooms.js"></script>
+        <script type="text/javascript" src="app/controllers/control-mushrooms.js"></script>
+
+    </body>
+
+</html>
